@@ -1,3 +1,4 @@
+# (c) Copyright 2017-2018 SUSE LLC
 # Copyright 2010 United States Government as represented by the
 # Administrator of the National Aeronautics and Space Administration.
 # All Rights Reserved.
@@ -81,10 +82,13 @@ commonName_max    = 64
 # Default values for the above, for consistency and less typing.
 # Variable name       Value
 #------------------------------   ------------------------------
-0.organizationName_default  = Hewlett-Packard-Enterprise
-localityName_default    = Bristol
-stateOrProvinceName_default = Bristol
-countryName_default   = UK
+0.organizationName_default  = Micro Focus International
+organizationalUnitName_default  = SUSE
+localityName_default    = Nuremberg
+stateOrProvinceName_default = Bavaria
+countryName_default   = DE
+commonName_default    = Cloud Test CA
+
 
 [ v3_ca ]
 basicConstraints  = CA:TRUE
