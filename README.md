@@ -13,7 +13,6 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 #
-
 Generate a self-signed CA
 
 Note: In a production setting you will not perform this step. You will use your
